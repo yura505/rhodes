@@ -1914,7 +1914,7 @@ unsigned long CRhodesApp::getCallbackObject(int nIndex)
         return valRes;
     }
 #else
-    return 0;
+    return 6; //Ruby Qundef
 #endif
 }
 
